@@ -124,7 +124,6 @@ with st.expander("ℹ️ Column Definitions & Specimen Abbreviations"):
 | Swab         | Swab from site (e.g. throat, wound) |
 | Bone Marrow  | Bone Marrow aspirate      |
 
-You can customize these or add more based on your local lab standards.
     """)
 
 
