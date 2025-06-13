@@ -77,6 +77,11 @@ if search_term:
         filtered_df["SHORTNAME"].str.contains(search_term, case=False, na=False)
     ]
 
+if search_term: 
+    filtered_df = filtered_df[
+        filtered_df["COMPONENT"].str.contains(search_term, case=False, na=False)
+    ]
+
 # Rename columns
 display_df = filtered_df.rename(columns={
     'LOINC_NUM': 'LOINC Code',
